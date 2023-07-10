@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xdms:communication xdms:version="2.7.1" xmlns:xdms="urn:IEDMS:MESSAGE">
+  <xdms:header xdms:type="Транспортный контейнер" xdms:uid="3a141a9a-225e-4910-b8b0-df0e580925e4" xdms:created="2023-04-20T18:44:03+03:00">
+    <xdms:source xdms:uid="d2d1cf3d-0074-4cf4-ac65-293578cefbe5">
+      <xdms:organization>Digital Design</xdms:organization>
+    </xdms:source>
+  </xdms:header>
+  <xdms:container>
+    <xdms:body>document.edc.zip</xdms:body>
+  </xdms:container>
+  <xdms:deliveryIndex>
+    <xdms:destination>
+	        <xdms:destination xdms:uid="11fd48ca-c03c-4bd6-872b-2a1ed5ad6013">
+        <xdms:organization>fit Сбербанк ЦА</xdms:organization>
+      </xdms:destination>
+    </xdms:destination>
+  </xdms:deliveryIndex>
+</xdms:communication>
